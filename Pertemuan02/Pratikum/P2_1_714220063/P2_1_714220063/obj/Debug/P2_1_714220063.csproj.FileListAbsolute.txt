@@ -1,0 +1,7 @@
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\bin\Debug\P2_1_714220063.exe.config
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\bin\Debug\P2_1_714220063.exe
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\bin\Debug\P2_1_714220063.pdb
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\obj\Debug\P2_1_714220063.csproj.AssemblyReference.cache
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\obj\Debug\P2_1_714220063.csproj.CoreCompileInputs.cache
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\obj\Debug\P2_1_714220063.exe
+C:\Users\SEKOLAH VOKASI\Downloads\PemogrammanII_PBO\Pertemuan02\Pratikum\P2_1_714220063\P2_1_714220063\obj\Debug\P2_1_714220063.pdb
