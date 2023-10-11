@@ -1,0 +1,7 @@
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\bin\Debug\P2_1_714220063.exe.config
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\bin\Debug\P2_1_714220063.exe
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\bin\Debug\P2_1_714220063.pdb
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\obj\Debug\P2_2_714220063.csproj.AssemblyReference.cache
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\obj\Debug\P2_2_714220063.csproj.CoreCompileInputs.cache
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\obj\Debug\P2_1_714220063.exe
+C:\Users\bdstd\Downloads\PBO\PemogramanII_PBO\Pertemuan03\Partikum\P3_2_714220063\P3_2_714220063\P2_2_714220063\obj\Debug\P2_1_714220063.pdb
