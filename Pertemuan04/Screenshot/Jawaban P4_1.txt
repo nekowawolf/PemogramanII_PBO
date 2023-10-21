@@ -1,0 +1,15 @@
+Bagian 1
+
+14. Karena object "myType" pada class Product_714220063 bersifat protected yang hanya dapat di akeses oleh class turunanya sendiri atau class yang sama, karena "ProductTest_714220063" bukan turunan dari "Product_714220063" maka tidak dapat mengakses protected 
+
+15. Karena belum di isi apapun pada object "MyType" sehingga menjadi (null) dan debug tidak menghasilkan apapun
+
+24. Pada object string MyType dalam class Product_714220063 akan memberikan nilai dari MyType dan object MyType tersebut yang sudah diisi dengan nilai string "DVD" menjadikan outout Console.WriteLine(myProduct.MyType) saat di panggil menghasilkan nilai MyType dan object MyType
+
+Bagian 2
+
+1. Karena dalam class "Book_714220063", parameter "title" tidak digunakan untuk menginisialisasi properti "MyTitle", melainkan hanya menginisialisasi properti "pageCount".Oleh karena itu, properti "MyTitle" tidak pernah mendapatkan nilai dan akan tetap null atau string kosong
+
+2. dengan menambahkan kode base(type, title), maka dapat memanggil konstruktor dari kelas "Product_714220063" yang dimana kita memanggil type dan title di dalam parameternya sehingga dapat menampilkan nilai dari konstruktor tersebut, Istilah dalam konsep OOP yang sesuai dengan kasus ini yaitu enkapsulasi, salah satu konsep OOP yang mencakup penyembunyian detail implementasi dan pengungkapan hanya informasi yang relevan melalui interface yang disediakan oleh class
+
+
