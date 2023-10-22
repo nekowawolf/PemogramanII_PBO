@@ -1,0 +1,7 @@
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\bin\Debug\P4_2_714220063.exe.config
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\bin\Debug\P4_2_714220063.exe
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\bin\Debug\P4_2_714220063.pdb
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\obj\Debug\P4_2_714220063.csproj.AssemblyReference.cache
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\obj\Debug\P4_2_714220063.csproj.CoreCompileInputs.cache
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\obj\Debug\P4_2_714220063.exe
+C:\Users\dika5\OneDrive\Dokumen\Ngoding\PemogramanII_PBO\Pertemuan04\Partikum\P4_2_714220063\P4_2_714220063\obj\Debug\P4_2_714220063.pdb
