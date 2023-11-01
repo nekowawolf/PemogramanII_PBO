@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtHuruf = new System.Windows.Forms.Label();
             this.txtAngka = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.Label();
@@ -39,6 +41,12 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.epWarning = new System.Windows.Forms.ErrorProvider(this.components);
+            this.epWrong = new System.Windows.Forms.ErrorProvider(this.components);
+            this.epCorrect = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.epWarning)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epWrong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epCorrect)).BeginInit();
             this.SuspendLayout();
             // 
             // txtHuruf
@@ -108,6 +116,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(146, 20);
             this.textBox1.TabIndex = 6;
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // textBox2
             // 
@@ -137,6 +146,21 @@
             this.textBox5.Size = new System.Drawing.Size(146, 20);
             this.textBox5.TabIndex = 10;
             // 
+            // epWarning
+            // 
+            this.epWarning.ContainerControl = this;
+            this.epWarning.Icon = ((System.Drawing.Icon)(resources.GetObject("epWarning.Icon")));
+            // 
+            // epWrong
+            // 
+            this.epWrong.ContainerControl = this;
+            this.epWrong.Icon = ((System.Drawing.Icon)(resources.GetObject("epWrong.Icon")));
+            // 
+            // epCorrect
+            // 
+            this.epCorrect.ContainerControl = this;
+            this.epCorrect.Icon = ((System.Drawing.Icon)(resources.GetObject("epCorrect.Icon")));
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,6 +179,9 @@
             this.Controls.Add(this.txtHuruf);
             this.Name = "Form1";
             this.Text = "Validasi";
+            ((System.ComponentModel.ISupportInitialize)(this.epWarning)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epWrong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epCorrect)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,6 +200,9 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ErrorProvider epWarning;
+        private System.Windows.Forms.ErrorProvider epWrong;
+        private System.Windows.Forms.ErrorProvider epCorrect;
     }
 }
 

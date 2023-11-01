@@ -16,5 +16,10 @@ namespace P6_3_714220063
         {
             InitializeComponent();
         }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+
+        }
     }
 }
