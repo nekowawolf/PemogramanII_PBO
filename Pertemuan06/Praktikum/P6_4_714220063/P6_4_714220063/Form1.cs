@@ -144,8 +144,8 @@ namespace P6_4_714220063
             }
             else
             {
-                string output = $"Name: {tbNama.Text}\nGender: {cb_gender.SelectedItem}\nEmail: {tbEmail.Text}\nAge: {tb_umur.Text} Year\n\nSuccessfully Registered!, wait for further info from email :)";
-                MessageBox.Show(output, "Successfully Registered!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Please select a CV file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
         }
 
