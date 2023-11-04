@@ -1,0 +1,10 @@
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\bin\Debug\P6_4_714220063.exe.config
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\bin\Debug\P6_4_714220063.exe
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\bin\Debug\P6_4_714220063.pdb
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.csproj.AssemblyReference.cache
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.Form1.resources
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.Properties.Resources.resources
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.csproj.GenerateResource.cache
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.csproj.CoreCompileInputs.cache
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.exe
+C:\Users\bdstd\Downloads\PemogramanII_PBO\Pertemuan06\Praktikum\P6_4_714220063\P6_4_714220063\obj\Debug\P6_4_714220063.pdb
