@@ -20,13 +20,13 @@ namespace P6_4_714220063
 
         private void tbNama_Leave(object sender, EventArgs e)
         {
-            if (tbNama.Text == "")
+            if (string.IsNullOrWhiteSpace(tbNama.Text))
             {
                 epWarning.SetError(tbNama, "");
                 epWrong.SetError(tbNama, "Can't be Empty");
                 epCorrect.SetError(tbNama, "");
             }
-            else if ((tbNama.Text).All(Char.IsUpper))
+            else if (tbNama.Text.All(c => Char.IsUpper(c) || c == ' '))
             {
                 epWarning.SetError(tbNama, "");
                 epWrong.SetError(tbNama, "");
@@ -34,7 +34,7 @@ namespace P6_4_714220063
             }
             else
             {
-                epWarning.SetError(tbNama, "Inputs can only be uppercase!");
+                epWarning.SetError(tbNama, "Inputs can only be uppercase letters!");
                 epWrong.SetError(tbNama, "");
                 epCorrect.SetError(tbNama, "");
             }
@@ -48,7 +48,7 @@ namespace P6_4_714220063
                 epWrong.SetError(tbEmail, "Can't be Empty");
                 epCorrect.SetError(tbEmail, "");
             }
-            else if (tbEmail.Text.All(c => Char.IsLower(c) || Char.IsDigit(c) || c == '@' || c == '.') && Regex.IsMatch(tbEmail.Text, @"^[^@\s]+@[^@\s]+(\.[^@\s]+)+$"))
+            else if (tbEmail.Text.All(c => Char.IsLower(c) || Char.IsDigit(c) || c == '@' || c == '.' || c == '_') && Regex.IsMatch(tbEmail.Text, @"^[^@\s]+@[^@\s]+(\.[^@\s]+)+$"))
             {
                 epWarning.SetError(tbEmail, "");
                 epWrong.SetError(tbEmail, "");
@@ -108,9 +108,9 @@ namespace P6_4_714220063
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(tbNama.Text) || !tbNama.Text.All(Char.IsUpper))
+            if (string.IsNullOrWhiteSpace(tbNama.Text) || !tbNama.Text.All(c => Char.IsUpper(c) || c == ' '))
             {
-                MessageBox.Show("The name must be filled in and can only be capitalized.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("The name must be filled in and can only contain uppercase letters and spaces.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -132,15 +132,20 @@ namespace P6_4_714220063
                 return;
             }
 
-            
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog.Filter = "PDF Files|*.pdf|Word Documents|*.doc;*.docx|All Files|*.*";
 
-            if (openFileDialog.ShowDialog() != DialogResult.OK)
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Please select a CV file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
+                
+                string output = $"Name: {tbNama.Text}\nGender: {cb_gender.SelectedItem}\nEmail: {tbEmail.Text}\nAge: {tb_umur.Text} Year\n\nSuccessfully Registered!, wait for further info from email :)";
+                MessageBox.Show(output, "Successfully Registered!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                string output = $"Name: {tbNama.Text}\nGender: {cb_gender.SelectedItem}\nEmail: {tbEmail.Text}\nAge: {tb_umur.Text} Year\n\nSuccessfully Registered!, wait for further info from email :)";
+                MessageBox.Show(output, "Successfully Registered!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
