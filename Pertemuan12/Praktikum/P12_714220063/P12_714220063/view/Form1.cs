@@ -41,6 +41,7 @@ namespace P12_714220063
             alamat.Text = "";
             email.Text = "";
             nohp.Text = "";
+            tbCariData.Text = "";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -66,7 +67,6 @@ namespace P12_714220063
                 m_mhs.Nohp = nohp.Text;
 
                 mhs.Insert(m_mhs);
-
                 ResetForm();
                 Tampil();
             }
@@ -106,12 +106,6 @@ namespace P12_714220063
             }
         }
 
-        private void btnRefresh_Click(object sender, EventArgs e)
-        {
-            ResetForm();
-            Tampil();
-        }
-
         private void btnHapus_Click(object sender, EventArgs e)
         {
             DialogResult pesan = MessageBox.Show(
@@ -126,6 +120,11 @@ namespace P12_714220063
                 ResetForm();
                 Tampil();
             }
+        }
+
+        private void tbCariData_TextChanged(object sender, EventArgs e)
+        {
+            DataMahasiswa.DataSource = koneksi.ShowData("SELECT * FROM t_mahasiswa WHERE npm LIKE '%' '" + tbCariData.Text + "' '%' OR nama LIKE '%' '" + tbCariData.Text + "' '%'");
         }
     }
 }

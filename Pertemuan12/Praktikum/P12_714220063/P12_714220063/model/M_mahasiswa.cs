@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P12_714220063.model
 {
-    class M_mahasiswa
+    internal class M_mahasiswa
     {
         string npm, nama, angkatan, alamat, email, nohp;
 

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace P12_714220063.controller
 {
-    class Mahasiswa
+    internal class Mahasiswa
     {
         Koneksi koneksi = new Koneksi();
 
